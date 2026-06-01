@@ -1,0 +1,1 @@
+print("He said, \"Python is fun!\"\nShe replied, \"I agree!\"")

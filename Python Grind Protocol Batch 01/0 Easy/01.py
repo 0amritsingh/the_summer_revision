@@ -1,0 +1,1 @@
+print('Amrit Singh', '19')
