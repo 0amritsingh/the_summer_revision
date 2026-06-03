@@ -1,0 +1,1 @@
+print('----BILL----\nItem\tPrice\nTea\t$20\nSamosa\t$15\nTotal\t$35\n-------------')

@@ -1,15 +1,11 @@
-while True:
-    username = input('Enter your username: ')
-    # print(len(username))
-    if 5 >= len(username) <= 15:
-        print('Valid')
-        if username[0].isalpha() == True:
+username = input('Enter username: ')
+if 5 <= len(username) <= 15:
+    if username[0].isalpha() == True:
+        if username.find(' ') == -1:
             print('Valid')
-            if username.find(' ') == 0:
-                print('Valid')
-            # else:
-            #     print('Invaild')
-        # else:
-        #     print('Invaild')
+        else:
+            print('Invalid: Username must not have whitespaces')
     else:
-        print('Invaild')
+        print('Invalid: Username must start with a letter')
+else:
+    print('Invalid: Username must be in the range between 5-15')
