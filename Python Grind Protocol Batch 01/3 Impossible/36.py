@@ -1,0 +1,7 @@
+sen = input('enter a message: ')
+sen = sen.replace('a', '*')
+sen = sen.replace('e', '*')
+sen = sen.replace('i', '*')
+sen = sen.replace('o', '*')
+sen = sen.replace('u', '*')
+print('secret message: ',sen)

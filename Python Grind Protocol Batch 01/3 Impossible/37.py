@@ -1,0 +1,6 @@
+p = float(input('Enter principal amount: '))
+r = float(input('Enter rate: '))
+n = float(input('Enter compunding frequency: '))
+t = float(input('Enter time in years: '))
+ci = float(p * (1 + r/n)**(n * t))
+print(f'{ci:.2f}')
