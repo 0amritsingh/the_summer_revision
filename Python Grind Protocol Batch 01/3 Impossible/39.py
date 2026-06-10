@@ -1,9 +1,7 @@
-# dob = input('Enter you date of birth as \'DD-MM-YYYY\': ')
-dob = '07-04-2007'
+dob = input('Enter you date of birth as \'DD-MM-YYYY\': ')
 d = dob[:2]
 m = dob[3:5]
 y = dob[6:]
-print(f'Day: {d}\nMonth: {m}\nYear: {y}\n')
 a = ''
 if d[1] == '1':
     a = 'st'
@@ -39,5 +37,6 @@ elif m == '11':
 elif m == '12':
     b = 'December'
 
+print(f'Day: {d}\nMonth: {b}\nYear: {y}\n')
 message = f'You were born in {y} on the {d+a} of {b}'
 print(message)
