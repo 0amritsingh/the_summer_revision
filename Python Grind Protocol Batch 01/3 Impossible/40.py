@@ -2,7 +2,7 @@ while True:
     pwd = input('Enter a password: ')
 
     if len(pwd) >= 8:
-        if '12' in pwd:
+        if '1234567890' in pwd:
             if 'QWERTYUIOPASDFGHJKLZXCVBNM' in pwd:
                 print('Srong Password')
             else:
