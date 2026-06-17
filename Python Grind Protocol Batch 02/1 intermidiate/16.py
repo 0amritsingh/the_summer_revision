@@ -1,0 +1,7 @@
+citys = ('Delhi', 'Mumbai', 'Luckhnow', 'Banglore', 'Amritsar')
+city_lst = list(citys)
+city_lst.append('Bareilly')
+city_lst.append('Dhareadun')
+city_lst.sort()
+citys = tuple(city_lst)
+print(citys)
