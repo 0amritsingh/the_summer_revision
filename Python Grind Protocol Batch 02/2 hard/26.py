@@ -1,0 +1,7 @@
+sen1 = input('Enter sentence 1: ')
+sen2 = input('Enter sentence 2: ')
+set_sen1 = set(sen1.split(' '))
+set_sen2 = set(sen2.split(' '))
+print('common words:',set_sen1.intersection(set_sen2))
+print('unique words in first:',set_sen1)
+print('unique words in second:',set_sen2)
