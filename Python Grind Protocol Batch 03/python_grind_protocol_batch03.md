@@ -1,4 +1,4 @@
-# 🔁 Python Grind Protocol — Batch 03
+    # 🔁 Python Grind Protocol — Batch 03
 
 **Topics:** For Loops · While Loops · Loops over all data types · Classic Loop Problems · Functions · Recursion · Lambda · Map · Filter · Local & Global · `is` vs `==`
 **Builds on:** Batch 01 (strings, if-else, typecasting) + Batch 02 (list, dict, set, tuple, comprehension)
