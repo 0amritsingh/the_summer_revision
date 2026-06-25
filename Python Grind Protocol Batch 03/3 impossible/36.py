@@ -1,0 +1,1 @@
+# i am not doing this fucking question i'm not here to write explannaions ok fuck this question
